@@ -1,0 +1,53 @@
+.layui-footer {
+    text-align: center;
+    font-size: 12px;
+}
+
+.iconfont {
+    margin-right: 8px;
+}
+
+.layui-icon {
+    margin-left: 20px;
+    margin-right: 8px;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.layui-body {
+    overflow: hidden;
+}
+
+a {
+    transition: none !important;
+}
+
+.img-avatar {
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+    border-bottom: 1px solid #282b33;
+}
+
+.avatar{
+    width: 40px;
+    height: 40px;
+}
+
+.zimu {
+    display: inline-block;
+    background-color: #009688;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    font-size: 22px;
+    position: relative;
+    top: 4px;
+    margin-right: 10px;
+    text-align: center;
+    color: #fff;
+}
