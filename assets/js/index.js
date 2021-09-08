@@ -42,7 +42,7 @@ function getUserInfo() {
 }
 function renderAvatar(user) {
     var name = user.nickname || user.username;
-    $('#wel').html('欢迎&nbsp;&nbsp;' + user.username);
+    $('#wel').html('欢迎&nbsp;&nbsp;' + name);
     if (user.user_pic !== null) {
         //有头像
         $('.avatar').attr('src', user.user_pic).show();
